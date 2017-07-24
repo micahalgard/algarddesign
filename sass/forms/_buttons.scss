@@ -1,0 +1,135 @@
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #01b2aa;
+  /*border-radius: 4px;*/
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #01b2aa;
+  border-color: #01b2aa; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #272727;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: #01b2aa; }
+
+
+/*Banner Buttons*/
+.buttons-1 .button {
+  height: 58px;
+  padding: 0px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: .1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+    
+  @media screen and (max-width: $query__medium){
+        height: 38px;
+        padding: 0 30px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: .1rem;
+  }
+}
+
+
+.banner-button{
+  text-align: center;
+}
+
+
+.buttons-1{
+    margin-top: 210px;
+    margin-bottom: 210px;
+   
+   @media screen and (min-width: $query__medium) {
+       background-image: none !important;
+      
+   }
+   
+}
+
+
+@media only screen and (max-width: 1024px){
+  .buttons-1{
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+}
+@media only screen and (max-width: $query__medium){
+  .header-image img{
+    display: none;
+  }
+ .button-1 .button {
+  height: 38px;
+  padding: 0 30px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+      
+  }
+
+  .buttons-1{
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 480px){
+  .buttons-1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/*END BANNDER/BUTTON STYLES*/
